@@ -6,6 +6,10 @@
   /* Margin */
   --margin-base: 60px;
 
+  /* Padding */
+  --padding-horizontal-base: 28px;
+  --padding-vertical-base: 16px;
+
   /* Colors */
   --background-color: #fafafa;
   --primary-color: #5a4fcf;
@@ -46,11 +50,21 @@ body {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
+  font-family: "Nunito";
+  font-size: 28px;
 }
 
 /* Styling Main Search */
 .main-search {
-  padding: 16px 28px;
+  padding: var(--padding-vertical-base) var(--padding-horizontal-base);
   width: 322px;
+  margin-right: 20px;
+}
+
+/* Styling Login Button */
+.btn-login {
+  padding: var(--padding-vertical-base) var(--padding-horizontal-base);
+  background-color: #5a4fcf10;
+  color: var(--primary-color);
 }
 /* Navbar End Styling */
