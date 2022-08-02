@@ -1,0 +1,28 @@
+/* Font Face */
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  src: url("../fonts/Nunito/Nunito-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+  font-weight: 600;
+}

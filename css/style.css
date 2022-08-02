@@ -1,0 +1,56 @@
+/* Import Fonts */
+@import url("fonts.css");
+
+/* Root CSS */
+:root {
+  /* Margin */
+  --margin-base: 60px;
+
+  /* Colors */
+  --background-color: #fafafa;
+  --primary-color: #5a4fcf;
+}
+
+/* Mengatur Base Margin, Padding, Typography, dll */
+body {
+  font-family: "Poppins";
+  font-weight: 500;
+  margin: var(--margin-base);
+  background-color: var(--background-color);
+}
+
+/* Navbar Styling */
+/* Reset Container Fluid Padding */
+.container-fluid {
+  padding: 0;
+}
+
+/* Memberi margin kanan untuk tiap link item pada navbar */
+.nav-item {
+  margin-right: 30px;
+}
+
+/* Memberi styling pada active link */
+.active {
+  text-decoration: underline solid var(--primary-color) 2px;
+  text-underline-offset: 2px;
+}
+
+/* Mereset icon dropdown toggle */
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* Centering Logo */
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+/* Styling Main Search */
+.main-search {
+  padding: 16px 28px;
+  width: 322px;
+}
+/* Navbar End Styling */
