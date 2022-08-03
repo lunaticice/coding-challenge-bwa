@@ -10,6 +10,9 @@
   --padding-horizontal-base: 28px;
   --padding-vertical-base: 16px;
 
+  /* Border Radius */
+  --border-radius-base: 24px;
+
   /* Colors */
   --background-color: #fafafa;
   --primary-color: #5a4fcf;
@@ -27,6 +30,11 @@ body {
 /* Reset Container Fluid Padding */
 .container-fluid {
   padding: 0;
+}
+
+/* Memberi margin navbar terhadap elemen di bawahnya */
+nav {
+  margin-bottom: var(--margin-base);
 }
 
 /* Memberi margin kanan untuk tiap link item pada navbar */
@@ -66,5 +74,25 @@ body {
   padding: var(--padding-vertical-base) var(--padding-horizontal-base);
   background-color: #5a4fcf10;
   color: var(--primary-color);
+  font-weight: 600;
 }
 /* Navbar End Styling */
+
+/* Hero Styling */
+.hero {
+  display: inline;
+  overflow: hidden;
+}
+
+/* Styling Rounded Card */
+.card {
+  border-radius: var(--border-radius-base);
+  width: 1128px;
+  height: 564px;
+}
+
+.card img {
+  border-radius: var(--border-radius-base);
+}
+
+/* Hero End Styling */
